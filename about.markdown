@@ -4,15 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Hi, I am a final year undergraduate student at Yale University studying computer science. I have always been interested in studying foreign languages and (perhaps for this reason!) am interested in language processing and speech synthesis in artificial intelligence. At Yale, I am involved in computer science education initiatives such as being a TA for Data Structures and Programming Techniques. While I spend most of my time studying quantitative fields at school, in my free time, you can find me at art museums or studying foreign languages! I can be reached through the email I have included below.
