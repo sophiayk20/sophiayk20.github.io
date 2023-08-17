@@ -6,8 +6,8 @@ categories: blog post
 
 This summer, I had the chance to learn about `Text-to-Speech (TTS)` through an AI R&D internship. 
 One of the first things I did was read two arXiv papers on this topic, and they are as follows:
-- `Tacotron: Towards End-to-End Speech Synthesis`: [https://arxiv.org/abs/1703.10135].
-- `Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling`: [https://arxiv.org/abs/2010.04301].
+- `Tacotron: Towards End-to-End Speech Synthesis`: <a>https://arxiv.org/abs/1703.10135]</a>
+- `Non-Attentive Tacotron: Robust and Controllable Neural TTS Synthesis Including Unsupervised Duration Modeling`: <a>https://arxiv.org/abs/2010.04301</a>
 
 For simplicity, I refer to the first paper as `Paper 1` and the second paper as `Paper 2` in this post.
 
