@@ -78,8 +78,8 @@ In the end, I used a `base model with around 190 English speakers`, and processe
 
 - <b>Data used</b>: For mel-spectrogram features, I used `average mel-spectrogram features across sentences`. For duration data, I used `average duration data (for each vowel) across sentences`.
 The data was stored in binary files using the Python struct package. The structures of the binary files were as follows:
-  - <b>mel-spectrogram feature</b>: locale num || locales || speaker count in base model || 22 floats for each speaker, with each float representing average mel-spectrogram feature for all sentences for that speaker
-  - <b>duration</b>: vowel count || name of each vowel (eg. a1, a2, ..., ux2) || speaker count in base model || 39 floats for each speaker, with each float representing average duration of that vowel for all sentences for that speaker
+  - <b>mel-spectrogram feature</b>: locale num / locales / speaker count in base model / 22 floats for each speaker, with each float representing average mel-spectrogram feature for all sentences for that speaker
+  - <b>duration</b>: vowel count / name of each vowel (eg. a1, a2, ..., ux2) / speaker count in base model / 39 floats for each speaker, with each float representing average duration of that vowel for all sentences for that speaker
 Mel-spectrogram data was originally packed in HDF5 files (h5py) and duration data was originally packed in pickle files. 
   
 - <b>Metric calculation</b>: I thought of two different ways of combining mel-spectrogram features and duration: `1) weighted sum` and `2) filtering`.
