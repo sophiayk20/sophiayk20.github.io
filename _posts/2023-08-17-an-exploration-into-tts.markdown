@@ -18,7 +18,7 @@ While reading these papers, I focused mostly on the difference between these two
   <tr>
     <th></th>
     <th>Attention-based models</th>
-    <th>Nonattetnive Models (using duration)</th>
+    <th>Nonattentive Models (using duration)</th>
   </tr>
   <tr>
     <td>works by</td>
@@ -50,6 +50,10 @@ The structure of NAT models is as follows: (note that `Paper 2` has a very strai
 ## My Task
 
 With the above as background knowledge, my task in this internship was to develop a metric that could evaluate voice similarity between user-inputted personal finetuning voice and model-outputted voice (which is a speaker in the base model).
+
+### Necessity of this metric
+This metric is needed when working with PTTS (Personal TTS) models. When a TTS model outputs speech in a particular voice, the most intuitive way of evaluating whether the model-ouputted voice is similar to a user's voice may be to listen to both audio(wav) files and subjectively judge their similarity. Yet this method relies too much on subjectivity and may not be consistent across several listenings, as a listener may feel that the voice is either too similar or too different as they listen to the audio files multiple times and stray from their original opinion. At the same time, listening to all the audio files multiple times can be very time inefficient. Thus developing an objective and numeric method of calculating whether voices are similar can help in the process of evaluating and comparing different PTTS mapping models.
+
 ### Original Method and Ideation
 The original way of evaluating voice similarity had been using mel-spectrogram features and calculating the L2 error between a base model speaker and the finetuning speaker.
 I noticed that `speech speed was not controllable` with this method. Regardless of which voice I inputted, the base speaker that may be matched to my voice could be either `too slow` or `too fast`.
@@ -74,8 +78,8 @@ In the end, I used a `base model with around 190 English speakers`, and processe
 
 - <b>Data used</b>: For mel-spectrogram features, I used `average mel-spectrogram features across sentences`. For duration data, I used `average duration data (for each vowel) across sentences`.
 The data was stored in binary files using the Python struct package. The structures of the binary files were as follows:
-  - <b>mel-spectrogram feature</b>: locale num | locales | speaker count in base model | 22 floats for each speaker, with each float representing average mel-spectrogram feature for all sentences for that speaker
-  - <b>duration</b>: vowel count | name of each vowel (eg. a1, a2, ..., ux2) | speaker count in base model | 39 floats for each speaker, with each float representing average duration of that vowel for all sentences for that speaker
+  - <b>mel-spectrogram feature</b>: locale num || locales || speaker count in base model || 22 floats for each speaker, with each float representing average mel-spectrogram feature for all sentences for that speaker
+  - <b>duration</b>: vowel count || name of each vowel (eg. a1, a2, ..., ux2) || speaker count in base model || 39 floats for each speaker, with each float representing average duration of that vowel for all sentences for that speaker
 Mel-spectrogram data was originally packed in HDF5 files (h5py) and duration data was originally packed in pickle files. 
   
 - <b>Metric calculation</b>: I thought of two different ways of combining mel-spectrogram features and duration: `1) weighted sum` and `2) filtering`.
@@ -91,7 +95,7 @@ Mel-spectrogram data was originally packed in HDF5 files (h5py) and duration dat
   - <b> Average duration float error calculation </b>: When calculating the average duration float, I thought of 3 cases that an error might arise: `1) a vowel is in the finetuning speaker but is not in the base speaker`, `2) a vowel is in the base speaker but is not in the finetuning speaker`, and `3) a vowel is in both the base and finetuning speaker`. The idea for dividing these cases is that the set of vowels in the finetuning speaker is a subset of the set of vowels in the base speaker.
     - <b>a vowel is in finetuning speaker but not in base speaker</b>: In this case, there is no way of comparing the finetuning speaker's vowel to the base speaker, so we exclude this base speaker from consideration by Python <i>return</i> and not appending this speaker to the min error speaker list.
     - <b>a vowel is in base speaker but not in finetuning speaker</b>: In this case, the base speaker has an extra vowel that the finetuning speaker has, so I processed this case through the Python <i>continue</i>.
-    - <b>a vowel is in bot hthe base and finetuning speakers</b>: In this case, the vowel is present in both cases, so we calculate the L2 error between the base speaker's vowel duration and the finetuning speaker's vowel duration.
+    - <b>a vowel is in both the base and finetuning speakers</b>: In this case, the vowel is present in both cases, so we calculate the L2 error between the base speaker's vowel duration and the finetuning speaker's vowel duration.
 
 #### Results
 I had a total of 4 speakers my voice was mapped to. For simplicity, I refer to these speakers as speaker 1, speaker 2, speaker 3, and speaker 4.
@@ -105,6 +109,7 @@ Weighted sum tuples are still noted as (feats, dur) weights.
 - filtering (20 most similar durations ➡️ most similar feature): speaker 4
 
 ### Discussion of Results (Observations), Areas of Improvement, Feedback Received
+- <b>Perceived similarity</b>: Although most metric formulas outputted speaker 3 as the most similar speaker, upon listening to the wav files of the mapped base speaker, I thought that speaker 2 was most similar to my recorded voice in terms of voice feature and speech speed. (I had recorded the sentences slightly fast in speed, and speaker 2 seemed to match that speed while sounding similar to my voice.)
 - <b>Numeric scale</b>: I found that for the weighted sum method, the mapped speaker converges to speaker 3 as duration weights are increased.
 This was found to be an issue of scale at the last minute and could not be fixed, but for future improvements, adjusting scale of both feature and duration error seems very necessary.
 - <b>Experimentation with numeric values chosen</b>: This study could most likely be replicated with different numeric values and show different results.
