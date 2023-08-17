@@ -114,7 +114,7 @@ Weighted sum tuples are still noted as (feats, dur) weights.
 This was found to be an issue of scale at the last minute and could not be fixed, but for future improvements, adjusting scale of both feature and duration error seems very necessary.
 - <b>Experimentation with numeric values chosen</b>: This study could most likely be replicated with different numeric values and show different results.
 For instance, for the filtering method, instead of looking at the first 20 speakers, I could also look at the first 10 or 30 speakers as appropriate.
-Moreover, different weights could be chosen for the weighted sum method. It may be particularly useful to do this over a continuous range of weights to see how the values change.
+Moreover, different weights could be chosen for the weighted sum method. It may be particularly useful to do this over a continuous range of weights to see how the error values change.
 I thought that more experimentation with different numeric values as input may help develop a more thorough understanding of which numbers are needed for developing the metric.
 - <b>Use of vowels</b>: While vowels <i>do</i> take up the majority of a duration of a sentence, there are also some consonants that take up duration of a sentence.
 Thus expanding the scope of this project to include both vowels and consonants would capture a more accurate representation of duration data.
