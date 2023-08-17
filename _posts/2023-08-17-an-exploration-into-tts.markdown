@@ -14,11 +14,28 @@ For simplicity, I refer to the first paper as `Paper 1` and the second paper as 
 ## Comparative Understanding of these Papers
 
 While reading these papers, I focused mostly on the difference between these two models, and classified models into those that use attention and those that do not:
-|  | Attention-based models | Nonattentive Models (using duration) |
-|-------|--------|--------|
-| works by | creating alignment based on previous frame | predicts duration for each input token |
-| ends when | judges when to end at each step | decides ending point from the start (by using duration) |
-| characteristics | dependent on previous frame, attention fail may occur when ending point erroneously calculated | independent frames (needs extra parameters such as range parameters), target duration may be hard to sample |
+<table>
+  <tr>
+    <th></th>
+    <th>Attention-based models</th>
+    <th>Nonattetnive Models (using duration)</th>
+  </tr>
+  <tr>
+    <td>works by</td>
+    <td>creating alignment based on previous frame</td>
+    <td>predicts duration for each input token</td>
+  </tr>
+  <tr>
+    <td>ends when</td>
+    <td>judges when to end at each step</td>
+    <td>decides ending point from the start (by using duration)</td>
+  </tr>
+  <tr>
+    <td>characteristics</td>
+    <td>dependent on previous frame, attention fail may occur when ending point erroneously calculated</td>
+    <td>independent frames (needs extra parameters such as range parameters), target duration may be difficult to sample</td>
+  </tr>
+</table>
 
 To prevent `attention fail` (which is when a speech output never ends (may stutter) or ends too prematurely) from happening, Nonattentive Tacotron (NAT) models emerged as the alternative.
 The structure of NAT models is as follows: (note that `Paper 2` has a very straightforward diagram that entails the structure of the model that I have not included in this post for copyright reasons)
