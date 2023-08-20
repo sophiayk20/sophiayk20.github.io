@@ -14,4 +14,4 @@ While I spend most of my time studying quantitative fields at school, in my free
 
 ---
 <br/>
-안녕하세요, 한국에서 용인외대부고를 우수졸업하고 현재 미국 예일대학교 컴퓨터과학 4학년 재학 중입니다. 외국어와 AI 공부하는 것을 좋아해 Language AI Research에 관심이 많습니다!
+안녕하세요, 한국에서 용인외대부고를 우수졸업하고 현재 미국 예일대학교 컴퓨터과학과 4학년 재학 중입니다. 외국어와 AI 공부하는 것을 좋아해 Language AI Research에 관심이 많습니다!
