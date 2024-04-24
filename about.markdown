@@ -13,5 +13,3 @@ At Yale, I am and have been involved in <b>computer science education initiative
 While I spend most of my time studying quantitative fields at school, in my free time, you can find me at art museums or studying foreign languages. I can be reached through the email I have included below.
 
 ---
-<br/>
-안녕하세요, 한국에서 용인외대부고를 우수졸업하고 현재 미국 예일대학교 컴퓨터과학과 4학년에 재학 중입니다. 외국어와 AI 공부하는 것을 좋아해 Language AI Research에 관심이 많습니다!
