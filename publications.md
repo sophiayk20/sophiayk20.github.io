@@ -6,7 +6,7 @@ permalink: /publications/
 
 ## News
 
-- **(7/9/2024)**: My first paper is accepted to the Student Research Workshop at **ACL** main conference 2024. It is also my first sole-authored paper. Beyond excited to be in Bangkok, Thailand this year!
+- **(7/9/2024)**: My first paper is accepted to the Student Research Workshop at **ACL** main conference 2024. Beyond excited to be in Bangkok, Thailand this year!
 
 ## List
 
