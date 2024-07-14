@@ -79,7 +79,10 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1)
+  jekyll-archives
   jekyll-feed (~> 0.12)
+  jekyll-paginate
+  jekyll-sitemap
   jekyll-whiteglass
   tzinfo (>= 1, < 3)
   tzinfo-data
