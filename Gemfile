@@ -19,6 +19,8 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jemoji"
+  gem "jekyll-whiteglass"
+  gem "jemoji"
 end
 
 # # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -27,6 +29,3 @@ end
 #   gem "tzinfo", ">= 1", "< 3"
 #   gem "tzinfo-data"
 # end
-
-gem "jekyll-whiteglass"
-gem "jemoji"
