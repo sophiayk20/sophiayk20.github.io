@@ -16,7 +16,6 @@ gem "github-pages", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed"
-  gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jekyll-whiteglass", "~> 1.11.4"
   gem "jemoji"

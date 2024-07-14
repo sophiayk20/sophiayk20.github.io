@@ -262,7 +262,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-archives
   jekyll-feed
   jekyll-sitemap
   jekyll-whiteglass (~> 1.11.4)
