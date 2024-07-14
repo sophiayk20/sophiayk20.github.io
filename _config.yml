@@ -38,7 +38,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-archives
-asset_url: /assets
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
