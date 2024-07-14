@@ -265,7 +265,7 @@ DEPENDENCIES
   jekyll-archives
   jekyll-feed
   jekyll-sitemap
-  jekyll-whiteglass
+  jekyll-whiteglass (~> 1.11.4)
   jemoji
 
 BUNDLED WITH

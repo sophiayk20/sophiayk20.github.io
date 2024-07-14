@@ -18,8 +18,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-archives"
   gem "jekyll-sitemap"
-  gem "jemoji"
-  gem "jekyll-whiteglass"
+  gem "jekyll-whiteglass", "~> 1.11.4"
   gem "jemoji"
 end
 
