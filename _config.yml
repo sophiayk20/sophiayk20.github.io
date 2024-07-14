@@ -31,7 +31,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: minima
 # plugins:
 #   - jekyll-feed
-theme: jekyll-whiteglass # will override this with _layouts directory
+#theme: jekyll-whiteglass # will override this with _layouts directory
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
