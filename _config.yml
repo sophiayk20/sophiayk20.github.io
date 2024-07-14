@@ -31,10 +31,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: minima
 # plugins:
 #   - jekyll-feed
-remote_theme: jekyll-whiteglass
+theme: jekyll-whiteglass
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-archives
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/

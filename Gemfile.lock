@@ -263,9 +263,9 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-feed
-  jekyll-sitemap
-  jekyll-whiteglass (~> 1.11.4)
-  jemoji
+  jekyll-whiteglass
+  tzinfo (>= 1, < 3)
+  tzinfo-data
 
 BUNDLED WITH
    2.4.10
