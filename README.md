@@ -1,0 +1,2 @@
+# 7/14/2024 Observation
+Whiteglass theme not supported by 'theme' in `_config.yml`. Instead of this, use the `remote_theme` parameter and pull from GitHub Jekyll theme repo directly for GitHub Pages compatibility.
