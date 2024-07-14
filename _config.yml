@@ -31,12 +31,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # theme: minima
 # plugins:
 #   - jekyll-feed
-theme: jekyll-whiteglass
+theme: jekyll-whiteglass # will override this with _layouts directory
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-archives
+asset_url: /assets
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
