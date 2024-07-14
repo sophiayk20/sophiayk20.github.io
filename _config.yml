@@ -38,6 +38,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-archives
+  - jemoji
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
@@ -51,6 +52,15 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+# author:
+#   name: "Yeeun Kang"
+
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#   tracking_id 
+#   anonymize_ip  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
