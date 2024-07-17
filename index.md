@@ -28,7 +28,7 @@ layout: page
 </div>
 
 ## News
-- **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL main conference 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
+- **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
 
 - **[6/26/2024]**: 4 other team members (from the U.S., China, India, and Vietnam) and I at MBZUAI UGRIP received the best team award from Professor Timothy Baldwin, Provost of MBZUAI. We ranked first out of 9 ML/CV/NLP teams for research content of our project on multilingual, multitask statement tuning of encoder models.
 
