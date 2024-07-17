@@ -56,7 +56,7 @@ layout: page
   Work accepted at ACL-SRW 2024.    
   Detected intonation unit boundaries of utterances in CoVoST 2 (speech-to-text translation dataset) with PSST, a pre-trained speech segmentation model from Whisper (STT), to create code-switched text leveraging prosodic features. Evaluated current SOTA NMT models' performance on 13 languages, including low-resource languages such as Welsh, Mongolian, and Tamil. I named my synthetic dataset CoVoSwitch.          
   Topics: `prosodic speech segmentation`, `speech recognition (STT)`, `neural machine translation (NMT)`, `code-switching`    
-  [[Paper]](), [[Code]](), and [[CoVoSwitch on HuggingFace Datasets]]()   
+  [[Paper]](), [[Code]](https://github.com/sophiayk20/covoswitch), and [[CoVoSwitch on HuggingFace Datasets]]()   
 
 - **Undisclosed Project using LLMs**  
   <small>Jan 2024 - Apr 2024 (@NAVER Cloud)</small>   
