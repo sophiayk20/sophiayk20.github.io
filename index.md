@@ -22,18 +22,17 @@ layout: page
         </p>
         <p>
         My email is sophiayk20 [at] gmail [dot] com.
-
         My profiles will be available at: <a href="">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="">ACL Anthology</a>.
         </p>
     </div>
 </div>
 
 ## News
-- **[7/9/2024]**: My first paper is accepted to the **Student Research Workshop** at **ACL main conference 2024**. I am also offered a travel grant for attending ACL. Beyond excited to be in Bangkok, Thailand!
+- **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL main conference 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
 
-- **[6/26/2024]**: 4 other team members (from the U.S., China, India, and Vietnam) and I at MBZUAI UGRIP received the best team award from Professor Timothy Baldwin, provost of MBZUAI. We ranked first out of 9 ML/CV/NLP teams for research content of our project on multilingual, multitask statement tuning of encoder models.
+- **[6/26/2024]**: 4 other team members (from the U.S., China, India, and Vietnam) and I at MBZUAI UGRIP received the best team award from Professor Timothy Baldwin, Provost of MBZUAI. We ranked first out of 9 ML/CV/NLP teams for research content of our project on multilingual, multitask statement tuning of encoder models.
 
-- **[6/6/2024]**: I was accepted to **Interspeech YFRSW 2024**. I am offered a scholarship to attend and present my speech processing research at Interspeech 2024 in Kos, Greece. 
+- **[6/6/2024]**: I was accepted to **Interspeech YFRSW 2024**. I was offered a scholarship to attend and present my speech processing research at Interspeech 2024 in Kos, Greece. 
 
 ## Publications
 
@@ -81,15 +80,20 @@ layout: page
 
 ## Teaching
 I was involved in different computer science education initiatives as an undergrad at Yale.
-- **CPSC 223: Data Structures and Programming Techniques** (C, C++) [Spring 2023, Fall 2023]
-- **CS50: Introduction to Computing and Programming** (C, Python, SQL, JavaScript) [Fall 2022]
 
+I was a TA (Teaching Assistant) for the following courses:
+- **CPSC 223: Data Structures and Programming Techniques** (C, C++) [Jan 2023 - Dec 2023]
+- **CS50: Introduction to Computing and Programming** (C, Python, SQL, JavaScript) [Aug 2022 - Dec 2023]
+
+and a mentor for:
 - **Code Haven** [Sep. 2021 - May 2022]
   - Taught middle school students in New Haven, Connecticut how to code in Scratch. 
 
 
 ## Other Fun Things
 I participated in **HackMIT 2022**. Along with 3 other team members I met on the site (2 others from the US and 1 from Canada), we were awarded as finalists at the hackathon held in Cambridge, Massachusetts. 
+
+I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an all-nighter(!!) helping Harvard and Yale students with their creative projects.
 
 
 #### Last updated
