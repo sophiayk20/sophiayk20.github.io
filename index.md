@@ -43,7 +43,7 @@ layout: page
 - **CoVoSwitch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units**  
   Yeeun Kang.  
   *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  
-  [Paper](https://github.com/sophiayk20) and [Code](https://github.com/sophiayk20/covoswitch)
+  [Paper](https://aclanthology.org/2024.acl-srw.40/) and [Code](https://github.com/sophiayk20/covoswitch)
 
 ## Selected Projects
 - **Multilingual, Multitask Statement Tuning for Encoder Models**   
