@@ -22,12 +22,14 @@ layout: page
         </p>
         <p>
         My email is sophiayk20 [at] gmail [dot] com.
-        My profiles will be available at: <a href="">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="">ACL Anthology</a>.
+        My profiles will be available at: <a href="https://scholar.google.com/citations?user=HSrWfxoAAAAJ&hl=en">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="https://aclanthology.org/people/y/yeeun-kang/">ACL Anthology</a>.
         </p>
     </div>
 </div>
 
 ## News
+- **[8/13/2024]**: **CoVoSwitch** was selected as a *Spotlight Paper* at ACL 2024 Student Research Workshop. I did a **poster presentation** on August 11th and **oral presentation** on August 12th!
+
 - **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
 
 - **[6/26/2024]**: 4 other team members (from the U.S., China, India, and Vietnam) and I at MBZUAI UGRIP received the best team award from Professor Timothy Baldwin, Provost of MBZUAI. We ranked first out of 9 ML/CV/NLP teams for research content of our project on multilingual, multitask statement tuning of encoder models.
@@ -97,4 +99,4 @@ I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an 
 
 
 #### Last updated
-I last updated this page on Jul 14, 2024.
+I last updated this page on Aug 15, 2024.
