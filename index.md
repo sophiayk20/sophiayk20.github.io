@@ -28,6 +28,8 @@ layout: page
 </div>
 
 ## News
+- **[5/15/2025]**: **My first co-authored paper** was accepted to **ACL 2025 Findings**! This paper holds special meaning to me as it was our team's joint research project at MBZUAI. 
+
 - **[8/13/2024]**: **CoVoSwitch** was selected as a *Spotlight Paper* at ACL 2024 Student Research Workshop. I did a **poster presentation** on August 11th and **oral presentation** on August 12th!
 
 - **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
@@ -37,6 +39,10 @@ layout: page
 - **[6/6/2024]**: I was accepted to **Interspeech YFRSW 2024**. I was offered a scholarship to attend and present my speech processing research at Interspeech 2024 in Kos, Greece. 
 
 ## Publications
+
+#### 2025
+- **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
+  Findings of the Association for Computational Linguistics: ACL 2025
 
 #### 2024
 
@@ -48,7 +54,7 @@ layout: page
 ## Selected Projects
 - **Multilingual, Multitask Statement Tuning for Encoder Models**   
   <small>May 2024 - Jun 2024 (@MBZUAI)</small>     
-  Created multilingual NLU datasets and made them available through HuggingFace. Evaluated zero-shot performance of encoder models on various NLU tasks.   
+  Created multilingual NLU datasets and made them available through HuggingFace. Evaluated zero-shot performance of encoder models on various NLU tasks. Published, ACL 2025 Findings.
   Topics: `encoder models`, `statement tuning`, `NLU`   
   [[HuggingFace Org Repo]](https://huggingface.co/mbzuai-ugrip-statement-tuning)
   , [[Final Presentation Slides]](), and [[Blog Post]]()       
@@ -99,4 +105,4 @@ I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an 
 
 
 #### Last updated
-I last updated this page on Aug 15, 2024.
+I last updated this page on May 16, 2025.
