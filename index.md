@@ -42,12 +42,13 @@ layout: page
 
 #### 2025
 - **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
+  Ahmed Elshabrawy, Thanh-Nhi Nguyen, <u>Yeeun Kang</u>, Lihan Feng, Annant Jain, Faadil Abdullah Shaikh, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
   *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
 
 #### 2024
 
 - **CoVoSwitch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units**  
-  Yeeun Kang.  
+  <u>Yeeun Kang</u>.
   *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  
   [Paper](https://aclanthology.org/2024.acl-srw.40/) and [Code](https://github.com/sophiayk20/covoswitch)
 
