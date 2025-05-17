@@ -42,7 +42,7 @@ layout: page
 
 #### 2025
 - **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
-  Findings of the Association for Computational Linguistics: ACL 2025
+  *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
 
 #### 2024
 
