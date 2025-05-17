@@ -70,7 +70,6 @@ layout: page
 - **Undisclosed Project using LLMs**  
   <small>Jan 2024 - Apr 2024 (@NAVER Cloud)</small>   
   Intern project at NAVER Cloud.    
-  Paper TBD.  
 
 - **Fine-tuning Whisper for Speech Recognition and Transcription**  
   <small>Aug 2023 - Dec 2023 (@Yale University)</small>     
