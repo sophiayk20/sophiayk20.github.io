@@ -28,6 +28,8 @@ layout: page
 </div>
 
 ## News
+- **[5/19/2025]**: Obtained my B.S. degree in Computer Science and Economics from Yale University.
+
 - **[5/15/2025]**: **My first co-authored paper** was accepted to **ACL 2025 Findings**! This paper holds special meaning to me as it was our team's joint research project at MBZUAI. 
 
 - **[8/13/2024]**: **CoVoSwitch** was selected as a *Spotlight Paper* at ACL 2024 Student Research Workshop. I did a **poster presentation** on August 11th and **oral presentation** on August 12th!
