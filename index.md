@@ -13,16 +13,12 @@ layout: page
         <!-- Right Column Content -->
         <h2></h2>
         <p>
-        I am an undergraduate student at <a href="https://www.yale.edu">Yale University</a> double majoring in computer science and economics (expected May 2025). My broad research interests lie in <b>multilingual speech processing and natural language processing</b>, as well as <b>multimodal translation</b>. In industry, I worked as an AI research engineer intern at the text-to-speech (TTS) teams at <a href="https://www.navercloudcorp.com/">NAVER Cloud</a> for natural language processing and <a href="https://www.samsung-dxrecruit.com/dept/detail/C0003">Samsung Electronics</a> for acoustic processing in Seongnam and Suwon, South Korea. In academia, I worked as a research intern in Professor Alham Fikri Aji's lab at the natural language processing department of <a href="https://mbzuai.ac.ae/research/department/natural-language-processing-department/">MBZUAI</a> in Abu Dhabi, United Arab Emirates.
+        I'm a recent graduate of Yale University with a B.S. degree in computer science and economics with an interest in speech processing and natural language processing. During my undergraduate studies, I had the opportunity to present my research in speech and NLP at Interspeech 2024 (Kos, Greece) and ACL 2024 (Bangkok, Thailand), supported by named grants and conference scholarships. Outside of work, I enjoy studying foreign languages (I'm finally starting my fourth language in 2025!!) and exploring historic sites. I’m also interested in themes of memorialization and selective preservation/destruction of material cultural heritage.
         </p>
         <br/>
         <p>
-        I currently speak 3 languages - English, Korean, and Spanish - but hope to become a more multilingual polyglot in the future! (Studying French has always been a long time wish of mine..)  
-        I enjoy learning languages because it opens me up to different cultures and perspectives.
-        </p>
-        <p>
         My email is sophiayk20 [at] gmail [dot] com.
-        My profiles will be available at: <a href="https://scholar.google.com/citations?user=HSrWfxoAAAAJ&hl=en">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="https://aclanthology.org/people/y/yeeun-kang/">ACL Anthology</a>.
+        My profiles are available at: <a href="https://scholar.google.com/citations?user=HSrWfxoAAAAJ&hl=en">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="https://aclanthology.org/people/y/yeeun-kang/">ACL Anthology</a>.
         </p>
     </div>
 </div>
@@ -46,6 +42,7 @@ layout: page
 - **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
   Ahmed Elshabrawy, Thanh-Nhi Nguyen, <u>Yeeun Kang</u>, Lihan Feng, Annant Jain, Faadil Abdullah Shaikh, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
   *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
+  [Paper](https://arxiv.org/pdf/2506.01592)
 
 #### 2024
 
@@ -105,6 +102,8 @@ I participated in **HackMIT 2022**. Along with 3 other team members I met on the
 
 I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an all-nighter(!!) helping Harvard and Yale students with their creative projects.
 
+#### Random Fact
+Random fact: my favorite course at Yale was HSAR 247: Art and Myth in Greek Antiquity (Fall 2022), where I wrote a course final paper on the Parthenon as a palimpsest. This course met in the Yale University Art Gallery, and motivated me to visit the Acropolis Museum in Athens in 2024 and the British Museum in London in 2025.
 
 #### Last updated
 I last updated this page on May 16, 2025.
