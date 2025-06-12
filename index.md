@@ -37,10 +37,11 @@ layout: page
 - **[6/6/2024]**: I was accepted to **Interspeech YFRSW 2024**. I was offered a scholarship to attend and present my speech processing research at Interspeech 2024 in Kos, Greece. 
 
 ## Publications
+*: Equal contribution
 
 #### 2025
 - **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
-  Ahmed Elshabrawy, Thanh-Nhi Nguyen, <u>Yeeun Kang</u>, Lihan Feng, Annant Jain, Faadil Abdullah Shaikh, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
+  Ahmed Elshabrawy, Thanh-Nhi Nguyen*, <u>Yeeun Kang*</u>, Lihan Feng*, Annant Jain*, Faadil Abdullah Shaikh*, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
   *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
   [Paper](https://arxiv.org/pdf/2506.01592)
 
