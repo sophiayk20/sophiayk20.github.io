@@ -23,6 +23,7 @@ layout: page
     </div>
 </div>
 
+<br>
 ## News
 <div style="height: 200px; overflow-y: scroll; padding: 10px;">
 
@@ -62,24 +63,33 @@ layout: page
 </div>
 
 </div>
+<br><br>
 
 ## Publications
 *: Equal contribution
 
 #### 2025
-- **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
-  Ahmed Elshabrawy, Thanh-Nhi Nguyen* , <u>Yeeun Kang*</u>, Lihan Feng *, Annant Jain *, Faadil Abdullah Shaikh *, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
-  *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
+- **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**    
+  Ahmed Elshabrawy, Thanh-Nhi Nguyen *, <u>Yeeun Kang</u> *, Lihan Feng *, Annant Jain *, Faadil Abdullah Shaikh *, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.      
+  *Findings of the Association for Computational Linguistics: ACL 2025, 2025*     
   [Paper](https://arxiv.org/pdf/2506.01592)
 
 #### 2024
 
-- **CoVoSwitch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units**  
-  <u>Yeeun Kang</u>.
-  *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  **[Oral, Spotlight Paper]**
+- **CoVoSwitch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units**   
+  <u>Yeeun Kang</u>.    
+  *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  **[Oral, Spotlight Paper]**   
   [Paper](https://aclanthology.org/2024.acl-srw.40/) and [Code](https://github.com/sophiayk20/covoswitch)
+<br>
 
 ## Selected Projects
+<div style="height: 200px; overflow-y: scroll; padding: 10px;">
+
+- **Visual Question Answering**     
+  <small>Jan 2025 - May 2025 (@Yale University)</small>     
+  Analyzed performance of two visual question answering models, VILT (classification) and BLIP (generative) on Stanford's GQA (Grounded Question Answering) images dataset.   
+  Topics: `visual question answering`
+
 - **Multilingual, Multitask Statement Tuning for Encoder Models**   
   <small>May 2024 - Jun 2024 (@MBZUAI)</small>     
   Created multilingual NLU datasets and made them available through HuggingFace. Evaluated zero-shot performance of encoder models on various NLU tasks. Published, ACL 2025 Findings.
@@ -108,9 +118,8 @@ layout: page
   Intern project at Samsung Electronics.    
   Topics: `speech synthesis (TTS)`, `mean opinion score (MOS)`, `custom voice on Bixby`   
   [[Blog Post]](http://sophiayk20.github.io/2023/08/17/an-exploration-into-tts/)    
-
-
-
+</div>
+<br><br>
 
 
 ## Teaching
@@ -124,6 +133,7 @@ and a mentor for:
 - **Code Haven** [Sep. 2021 - May 2022]
   - Taught middle school students in New Haven, Connecticut how to code in Scratch. 
 
+<br>
 
 ## Other Fun Things
 I participated in **HackMIT 2022**. Along with 3 other team members I met on the site (2 others from the US and 1 from Canada), we were awarded as finalists at the hackathon held in Cambridge, Massachusetts. 
@@ -131,7 +141,7 @@ I participated in **HackMIT 2022**. Along with 3 other team members I met on the
 I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an all-nighter(!!) helping Harvard and Yale students with their creative projects.
 
 #### Random Fact
-My favorite course at Yale was HSAR 247: Art and Myth in Greek Antiquity (Fall 2022), where I wrote a course final paper on the Parthenon as a palimpsest. This course met in the Yale University Art Gallery, and motivated me to visit the Acropolis Museum in Athens in 2024 and the British Museum in London in 2025.
+My favorite course at Yale was HSAR 247: Art and Myth in Greek Antiquity (Fall 2022), where I wrote a course final paper on the Parthenon as a palimpsest. This course met in the Yale University Art Gallery and motivated me to visit the Acropolis Museum in Athens in 2024 and the British Museum in London in 2025.
 
 #### Last updated
 I last updated this page on May 16, 2025.
