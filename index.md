@@ -80,48 +80,64 @@ layout: page
   <u>Yeeun Kang</u>.    
   *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  **[Oral, Spotlight Paper]**   
   [Paper](https://aclanthology.org/2024.acl-srw.40/) and [Code](https://github.com/sophiayk20/covoswitch)
-<br>
+<br><br>
 
 ## Selected Projects
 <div style="height: 200px; overflow-y: scroll; padding: 10px;">
 
-- **Visual Question Answering**     
-  <small>Jan 2025 - May 2025 (@Yale University)</small>     
-  Analyzed performance of two visual question answering models, VILT (classification) and BLIP (generative) on Stanford's GQA (Grounded Question Answering) images dataset.   
-  Topics: `visual question answering`
+  <div class="project">
+  <h3>Visual Question Answering</h3>
+  <small>Jan 2025 - May 2025 (@Yale University)</small>
+  <p>Analyzed performance of two visual question answering models, VILT (classification) and BLIP (generative) on Stanford's GQA (Grounded Question Answering) images dataset.</p>
+  <p><strong>Topics:</strong> <span class="topics">visual question answering</span></p>
+</div>
 
-- **Multilingual, Multitask Statement Tuning for Encoder Models**   
-  <small>May 2024 - Jun 2024 (@MBZUAI)</small>     
-  Created multilingual NLU datasets and made them available through HuggingFace. Evaluated zero-shot performance of encoder models on various NLU tasks. Published, ACL 2025 Findings.
-  Topics: `encoder models`, `statement tuning`, `NLU`   
-  [[HuggingFace Org Repo]](https://huggingface.co/mbzuai-ugrip-statement-tuning)
-  , [[Final Presentation Slides]](), and [[Blog Post]]()       
+<div class="project">
+  <h3>Multilingual, Multitask Statement Tuning for Encoder Models</h3>
+  <small>May 2024 - Jun 2024 (@MBZUAI)</small>
+  <p>Created multilingual NLU datasets and made them available through HuggingFace. Evaluated zero-shot performance of encoder models on various NLU tasks. Published, ACL 2025 Findings.</p>
+  <p><strong>Topics:</strong> <span class="topics">encoder models, statement tuning, NLU</span></p>
+  <p><a href="https://huggingface.co/mbzuai-ugrip-statement-tuning" target="_blank">HuggingFace Org Repo</a>, 
+  <a href="#" target="_blank">Final Presentation Slides</a>, and 
+  <a href="#" target="_blank">Blog Post</a></p>
+</div>
 
-- **Code-Switched Text Dataset Creation by Intonation Unit Detection and Replacement**   
-  <small>Apr 2024 - Jun 2024 (Independent Project)</small>   
-  Work accepted at ACL-SRW 2024.    
-  Detected intonation unit boundaries of utterances in CoVoST 2 (speech-to-text translation dataset) with PSST, a pre-trained speech segmentation model from Whisper (STT), to create code-switched text leveraging prosodic features. Evaluated current SOTA NMT models' performance on 13 languages, including low-resource languages such as Welsh, Mongolian, and Tamil. I named my synthetic dataset CoVoSwitch.          
-  Topics: `prosodic speech segmentation`, `speech recognition (STT)`, `neural machine translation (NMT)`, `code-switching`    
-  [[Paper]](https://arxiv.org/abs/2407.14295), [[Code]](https://github.com/sophiayk20/covoswitch), and [[CoVoSwitch on HuggingFace Datasets]]()   
+<div class="project">
+  <h3>Code-Switched Text Dataset Creation by Intonation Unit Detection and Replacement</h3>
+  <small>Apr 2024 - Jun 2024 (Independent Project)</small>
+  <p>Work accepted at ACL-SRW 2024. Detected intonation unit boundaries of utterances in CoVoST 2 (speech-to-text translation dataset) with PSST, a pre-trained speech segmentation model from Whisper (STT), to create code-switched text leveraging prosodic features. Evaluated current SOTA NMT models' performance on 13 languages, including low-resource languages such as Welsh, Mongolian, and Tamil. I named my synthetic dataset CoVoSwitch.</p>
+  <p><strong>Topics:</strong> <span class="topics">prosodic speech segmentation, speech recognition (STT), neural machine translation (NMT), code-switching</span></p>
+  <p><a href="https://arxiv.org/abs/2407.14295" target="_blank">Paper</a>, 
+  <a href="https://github.com/sophiayk20/covoswitch" target="_blank">Code</a>, and 
+  <a href="#" target="_blank">CoVoSwitch on HuggingFace Datasets</a></p>
+</div>
 
-- **Undisclosed Project using LLMs**  
-  <small>Jan 2024 - Apr 2024 (@NAVER Cloud)</small>   
-  Intern project at NAVER Cloud.    
+<div class="project">
+  <h3>Undisclosed Project using LLMs</h3>
+  <small>Jan 2024 - Apr 2024 (@NAVER Cloud)</small>
+  <p>Intern project at NAVER Cloud.</p>
+</div>
 
-- **Fine-tuning Whisper for Speech Recognition and Transcription**  
-  <small>Aug 2023 - Dec 2023 (@Yale University)</small>     
-  Course final project for Yale's `CPSC 488/588: AI Foundation Models`. Took course with MS, PhD students and received full marks.    
-  [[Code]](https://github.com/sophiayk20/whisper-asr)
+<div class="project">
+  <h3>Fine-tuning Whisper for Speech Recognition and Transcription</h3>
+  <small>Aug 2023 - Dec 2023 (@Yale University)</small>
+  <p>Course final project for Yale's <code>CPSC 488/588: AI Foundation Models</code>. Took course with MS, PhD students and received full marks.</p>
+  <p><a href="https://github.com/sophiayk20/whisper-asr" target="_blank">Code</a></p>
+</div>
 
-- **Refining Custom Voice Metric**  
-  <small>Jun 2023 - Aug 2023 (@Samsung Electronics)</small>       
-  Intern project at Samsung Electronics.    
-  Topics: `speech synthesis (TTS)`, `mean opinion score (MOS)`, `custom voice on Bixby`   
-  [[Blog Post]](http://sophiayk20.github.io/2023/08/17/an-exploration-into-tts/)    
+<div class="project">
+  <h3>Refining Custom Voice Metric</h3>
+  <small>Jun 2023 - Aug 2023 (@Samsung Electronics)</small>
+  <p>Intern project at Samsung Electronics.</p>
+  <p><strong>Topics:</strong> <span class="topics">speech synthesis (TTS), mean opinion score (MOS), custom voice on Bixby</span></p>
+  <p><a href="http://sophiayk20.github.io/2023/08/17/an-exploration-into-tts/" target="_blank">Blog Post</a></p>
+</div>
+
+
 </div>
 <br><br>
 
-
+<br>
 ## Teaching
 I was involved in different computer science education initiatives as an undergrad at Yale.
 
@@ -133,7 +149,6 @@ and a mentor for:
 - **Code Haven** [Sep. 2021 - May 2022]
   - Taught middle school students in New Haven, Connecticut how to code in Scratch. 
 
-<br>
 
 ## Other Fun Things
 I participated in **HackMIT 2022**. Along with 3 other team members I met on the site (2 others from the US and 1 from Canada), we were awarded as finalists at the hackathon held in Cambridge, Massachusetts. 
