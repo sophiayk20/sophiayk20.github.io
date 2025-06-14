@@ -24,24 +24,51 @@ layout: page
 </div>
 
 ## News
-- **[5/19/2025]**: Obtained my B.S. degree in Computer Science and Economics from Yale University.
+<div style="height: 200px; overflow-y: scroll; padding: 10px;">
 
-- **[5/15/2025]**: **My first co-authored paper** was accepted to **ACL 2025 Findings**! This paper holds special meaning to me as it was our team's joint research project at MBZUAI. 
+<div style="padding: 1em;">
+  🎓 <strong>May 19, 2025</strong><br>
+  Obtained my <strong>B.S. degree</strong> in <strong>Computer Science and Economics</strong> from <strong>Yale University</strong>.
+</div>
 
-- **[8/13/2024]**: **CoVoSwitch** was selected as a *Spotlight Paper* at ACL 2024 Student Research Workshop. I did a **poster presentation** on August 11th and **oral presentation** on August 12th!
+<div style="padding: 1em;">
+  📄 <strong>May 15, 2025</strong><br>
+  🎉 <strong>My first co-authored paper</strong> was accepted to <strong>ACL 2025 Findings</strong>!<br>
+  This paper holds special meaning to me as it was our team's joint research project at <strong>MBZUAI</strong>.
+</div>
 
-- **[7/9/2024]**: **My first paper** was accepted to the **Student Research Workshop** at **ACL 2024**. I was also offered a travel grant for attending ACL in person. Beyond excited to be in Bangkok, Thailand!
+<div style="padding: 1em;">
+  🌟 <strong>August 13, 2024</strong><br>
+  <strong>CoVoSwitch</strong> was selected as a <em>Spotlight Paper</em> at the <strong>ACL 2024 Student Research Workshop</strong>.<br>
+  🧾 Gave a <strong>poster presentation</strong> on <strong>August 11</strong> and an <strong>oral presentation</strong> on <strong>August 12</strong>!
+</div>
 
-- **[6/26/2024]**: 4 other team members (from the U.S., China, India, and Vietnam) and I at MBZUAI UGRIP received the best team award from Professor Timothy Baldwin, Provost of MBZUAI. We ranked first out of 9 ML/CV/NLP teams for research content of our project on multilingual, multitask statement tuning of encoder models.
+<div style="padding: 1em;">
+  📝 <strong>July 9, 2024</strong><br>
+  <strong>My first paper</strong> was accepted to the <strong>Student Research Workshop</strong> at <strong>ACL 2024</strong>.<br>
+  ✈️ I was also awarded a <strong>travel grant</strong> to attend ACL in person in Bangkok, Thailand.<br>
+</div>
 
-- **[6/6/2024]**: I was accepted to **Interspeech YFRSW 2024**. I was offered a scholarship to attend and present my speech processing research at Interspeech 2024 in Kos, Greece. 
+<div style="padding: 1em;">
+  🏅 <strong>June 26, 2024</strong><br>
+  Our team of 5 (from the U.S., China, India, and Vietnam) at <strong>MBZUAI UGRIP</strong> received the <strong>Best Team Award</strong> from <strong>Prof. Timothy Baldwin</strong>, Provost of MBZUAI.<br>
+  🥇 Ranked <strong>1st out of 9</strong> ML/CV/NLP teams for research content on <strong>multilingual, multitask statement tuning of encoder models</strong>.
+</div>
+
+<div style="padding: 1em;">
+  🗣️ <strong>June 6, 2024</strong><br>
+  Accepted to <strong>Interspeech YFRSW 2024</strong>!<br>
+  🎤 Awarded a <strong>scholarship</strong> to attend and present my <strong>speech processing research</strong> at <strong>Interspeech 2024</strong> in <strong>Kos, Greece</strong>.
+</div>
+
+</div>
 
 ## Publications
 *: Equal contribution
 
 #### 2025
 - **Statement-Tuning Enables Efficient Cross-lingual Generalization in Encoder-only Models**
-  Ahmed Elshabrawy, Thanh-Nhi Nguyen*, <u>Yeeun Kang*</u>, Lihan Feng*, Annant Jain*, Faadil Abdullah Shaikh*, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
+  Ahmed Elshabrawy, Thanh-Nhi Nguyen* , <u>Yeeun Kang*</u>, Lihan Feng *, Annant Jain *, Faadil Abdullah Shaikh *, Jonibek Mansurov, Mohamed Fazli Mohamed Imam, Jesus-German Ortiz-Barajas, Rendi Chevi, Alham Fikri Aji.
   *Findings of the Association for Computational Linguistics: ACL 2025, 2025*
   [Paper](https://arxiv.org/pdf/2506.01592)
 
@@ -49,7 +76,7 @@ layout: page
 
 - **CoVoSwitch: Machine Translation of Synthetic Code-Switched Text Based on Intonation Units**  
   <u>Yeeun Kang</u>.
-  *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  
+  *Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics: Student Research Workshop, 2024*  **[Oral, Spotlight Paper]**
   [Paper](https://aclanthology.org/2024.acl-srw.40/) and [Code](https://github.com/sophiayk20/covoswitch)
 
 ## Selected Projects
@@ -104,7 +131,7 @@ I participated in **HackMIT 2022**. Along with 3 other team members I met on the
 I was also at the **CS50 Hackathon** at Harvard in Fall 2022, where I pulled an all-nighter(!!) helping Harvard and Yale students with their creative projects.
 
 #### Random Fact
-Random fact: my favorite course at Yale was HSAR 247: Art and Myth in Greek Antiquity (Fall 2022), where I wrote a course final paper on the Parthenon as a palimpsest. This course met in the Yale University Art Gallery, and motivated me to visit the Acropolis Museum in Athens in 2024 and the British Museum in London in 2025.
+My favorite course at Yale was HSAR 247: Art and Myth in Greek Antiquity (Fall 2022), where I wrote a course final paper on the Parthenon as a palimpsest. This course met in the Yale University Art Gallery, and motivated me to visit the Acropolis Museum in Athens in 2024 and the British Museum in London in 2025.
 
 #### Last updated
 I last updated this page on May 16, 2025.
