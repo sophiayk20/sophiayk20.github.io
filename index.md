@@ -13,7 +13,10 @@ layout: page
         <!-- Right Column Content -->
         <h2></h2>
         <p>
-        I'm a recent graduate of Yale University with a B.S. degree in computer science and economics with an interest in speech processing and natural language processing. During my undergraduate studies, I had the opportunity to present my research in speech and NLP at Interspeech 2024 (Kos, Greece) and ACL 2024 (Bangkok, Thailand), supported by named grants and conference scholarships. Outside of work, I enjoy studying foreign languages (I'm finally starting my fourth language in 2025!!) and exploring historic sites. I’m also interested in themes of memorialization and selective preservation/destruction of material cultural heritage.
+        I'm a recent graduate of Yale University with a B.S. degree in computer science and economics with an interest in speech processing and natural language processing. During my undergraduate studies, I had the opportunity to present my research in speech and NLP at Interspeech 2024 (Kos, Greece) and ACL 2024 (Bangkok, Thailand), supported by named grants and conference scholarships. I also worked as in the industry text-to-speech teams of NAVER and Samsung Electronics in South Korea. Outside of work, I enjoy studying foreign languages (I'm finally starting my fourth language in 2025!!) and exploring historic sites. I’m interested in themes of memorialization and selective preservation/destruction of material cultural heritage.
+        </p>
+        <p>
+        Post-graduation from Yale, I'll begin full-time work at Amazon as a Software Development Engineer in New York City.
         </p>
         <br/>
         <p>
@@ -85,7 +88,7 @@ layout: page
 ## Selected Projects
 <div style="height: 200px; overflow-y: scroll; padding: 10px;">
 
-  <div class="project">
+  <div style="padding: 1em;" class="project">
   <h3>Visual Question Answering</h3>
   <small>Jan 2025 - May 2025 (@Yale University)</small>
   <p>Analyzed performance of two visual question answering models, VILT (classification) and BLIP (generative) on Stanford's GQA (Grounded Question Answering) images dataset.</p>
