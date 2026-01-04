@@ -28,44 +28,50 @@ layout: page
 
 <br>
 ## News
-<div style="height: 200px; overflow-y: scroll; padding: 10px;">
+<div style="padding: 10px;">
+  <div style="padding: 1em;">
+   🗣️ <strong> Dec 2025 </strong><br>
+    Awarded as track winner for project at <strong>2025 ElevenLabs Conversational AI Agents Hackathon</strong>(NYC Chapter) with 3 other team members. <br>
+    This hackathon was on focused entirely on Speech AI, and our team used speech recognition and speech synthesis to create an interlocutor in multi-speaker conversations.
+  </div>
 
-<div style="padding: 1em;">
-  🎓 <strong>May 19, 2025</strong><br>
-  Obtained my <strong>B.S. degree</strong> in <strong>Computer Science and Economics</strong> from <strong>Yale University</strong>.
+  <div style="padding: 1em;">
+    🎓 <strong>May 19, 2025</strong><br>
+    Obtained my <strong>B.S. degree</strong> in <strong>Computer Science and Economics</strong> from <strong>Yale University</strong>.
+  </div>
+
+  <div style="padding: 1em;">
+    📄 <strong>May 15, 2025</strong><br>
+    🎉 <strong>My first co-authored paper</strong> was accepted to <strong>ACL 2025 Findings</strong>!<br>
+    This paper holds special meaning to me as it was our team's joint research project at <strong>MBZUAI</strong>.
+  </div>
+
+  <div style="padding: 1em;">
+    🌟 <strong>August 13, 2024</strong><br>
+    <strong>CoVoSwitch</strong> was selected as a <em>Spotlight Paper</em> at the <strong>ACL 2024 Student Research Workshop</strong>.<br>
+    🧾 Gave a <strong>poster presentation</strong> on <strong>August 11</strong> and an <strong>oral presentation</strong> on <strong>August 12</strong>!
+  </div>
+
+  <div style="padding: 1em;">
+    📝 <strong>July 9, 2024</strong><br>
+    <strong>My first paper</strong> was accepted to the <strong>Student Research Workshop</strong> at <strong>ACL 2024</strong>.<br>
+    ✈️ I was also awarded a <strong>travel grant</strong> to attend ACL in person in Bangkok, Thailand.
+  </div>
+
+  <div style="padding: 1em;">
+    🏅 <strong>June 26, 2024</strong><br>
+    Our team of 5 (from the U.S., China, India, and Vietnam) at <strong>MBZUAI UGRIP</strong> received the <strong>Best Team Award</strong> from <strong>Prof. Timothy Baldwin</strong>, Provost of MBZUAI.<br>
+    🥇 Ranked <strong>1st out of 9</strong> ML/CV/NLP teams for research content on <strong>multilingual, multitask statement tuning of encoder models</strong>.
+  </div>
+
+  <div style="padding: 1em;">
+    🗣️ <strong>June 6, 2024</strong><br>
+    Accepted to <strong>Interspeech YFRSW 2024</strong>!<br>
+    🎤 Awarded a <strong>scholarship</strong> to attend and present my <strong>speech processing research</strong> at <strong>Interspeech 2024</strong> in <strong>Kos, Greece</strong>.
+  </div>
+
 </div>
 
-<div style="padding: 1em;">
-  📄 <strong>May 15, 2025</strong><br>
-  🎉 <strong>My first co-authored paper</strong> was accepted to <strong>ACL 2025 Findings</strong>!<br>
-  This paper holds special meaning to me as it was our team's joint research project at <strong>MBZUAI</strong>.
-</div>
-
-<div style="padding: 1em;">
-  🌟 <strong>August 13, 2024</strong><br>
-  <strong>CoVoSwitch</strong> was selected as a <em>Spotlight Paper</em> at the <strong>ACL 2024 Student Research Workshop</strong>.<br>
-  🧾 Gave a <strong>poster presentation</strong> on <strong>August 11</strong> and an <strong>oral presentation</strong> on <strong>August 12</strong>!
-</div>
-
-<div style="padding: 1em;">
-  📝 <strong>July 9, 2024</strong><br>
-  <strong>My first paper</strong> was accepted to the <strong>Student Research Workshop</strong> at <strong>ACL 2024</strong>.<br>
-  ✈️ I was also awarded a <strong>travel grant</strong> to attend ACL in person in Bangkok, Thailand.<br>
-</div>
-
-<div style="padding: 1em;">
-  🏅 <strong>June 26, 2024</strong><br>
-  Our team of 5 (from the U.S., China, India, and Vietnam) at <strong>MBZUAI UGRIP</strong> received the <strong>Best Team Award</strong> from <strong>Prof. Timothy Baldwin</strong>, Provost of MBZUAI.<br>
-  🥇 Ranked <strong>1st out of 9</strong> ML/CV/NLP teams for research content on <strong>multilingual, multitask statement tuning of encoder models</strong>.
-</div>
-
-<div style="padding: 1em;">
-  🗣️ <strong>June 6, 2024</strong><br>
-  Accepted to <strong>Interspeech YFRSW 2024</strong>!<br>
-  🎤 Awarded a <strong>scholarship</strong> to attend and present my <strong>speech processing research</strong> at <strong>Interspeech 2024</strong> in <strong>Kos, Greece</strong>.
-</div>
-
-</div>
 <br><br>
 
 ## Publications
