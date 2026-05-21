@@ -22,7 +22,7 @@ layout: page
         teams at NAVER and Samsung Electronics in South Korea.
         </p>
         <p>
-         Outside of work, I enjoy studying foreign languages — I'm
+         Outside of work, I enjoy studying foreign languages — I speak English, Korean, and Spanish and I'm
         currently working on my fourth, French — and exploring historic
         sites. I'm particularly drawn to themes of memorialization
         and the selective preservation and destruction of

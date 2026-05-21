@@ -54,6 +54,7 @@ permalink: /history/
 | 👩‍🏫 | Aug 2022 – Dec 2022 | New Haven, CT | Yale University | Teaching Assistant, CS50 |
 | 🧠 | Oct 2022 | Cambridge, MA | MIT | HackMIT 2022 Finalist |
 | 👩‍🏫 | Sep 2021 – May 2022 | New Haven, CT | Code Haven at Yale | Mentor, Scratch programming |
+| 💻 | Sep 2021 - Jan 2022 | New Haven, CT | Yale University | Tobin Undergraduate Research Assistant, Yale Department of Economics & School of Management |
 | 🎓 | Aug 2020 – May 2025 | New Haven, CT | Yale University | Bachelor of Science, Computer Science and Economics |
 
 </div>
