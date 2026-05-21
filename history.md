@@ -43,14 +43,15 @@ permalink: /history/
 | 🌐 | Jun 2026 | New York, NY | InstaLILY AI | InstaLILY x Women in AI 2026 NYC Tech Week Invitee |
 | 🧠 | Dec 2025 | New York, NY | ElevenLabs | Track Winner, ElevenLabs 2025 Worldwide Conversational AI Agents Hackathon |
 | 💻 | Aug 2025 – Present | New York, NY | Amazon | Software Engineer, Live Events @ Amazon Ads |
+| 🔬 | May 2025 | Rotterdam, Netherlands | Interspeech 2025 | Paper accepted, Interspeech 2025 |
 | 🔬 | May 2025 | Vienna, Austria | ACL 2025 | Paper accepted, ACL 2025 Findings: *Statement-Tuning Enables Efficient Cross-lingual Generalization* |
 | 🔬 | Sep 2024 | Kos, Greece | Interspeech 2024 | Scholarship & presentation, Interspeech 2024 Young Female Researchers in Speech Workshop |
-| 🔬 | Aug 2024 | Bangkok, Thailand | ACL 2024 | Travel Grant, spotlight paper, oral & poster presentation, ACL 2024 Student Research Workshop |
+| 🔬 | Aug 2024 | Bangkok, Thailand | ACL 2024 | Travel Grant, Spotlight Paper, Oral & Poster Presentation in Main Conference, ACL 2024 Student Research Workshop |
 | 💻 | May 2024 - Jun 2024 | Abu Dhabi, UAE | MBZUAI | Research Intern, Best Team Award in Undergraduate Research Internship Program |
 | 💻 | Jan 2024 – Apr 2024 | South Korea | NAVER | Machine Learning Engineer Intern, Text-to-Speech @ Multimodal AI |
 | 👩‍🏫 | Jan 2023 – Dec 2023 | New Haven, CT | Yale University | Teaching Assistant, CPSC 223 Data Structures and Programming Techniques |
 | 💻 | Jun 2023 – Aug 2023 | South Korea | Samsung Electronics | Software Engineer, ML Intern, Text-to-Speech @ AI R&D |
-| 👩‍🏫 | Aug 2022 – Dec 2023 | New Haven, CT | Yale University | Teaching Assistant, CS50 |
+| 👩‍🏫 | Aug 2022 – Dec 2022 | New Haven, CT | Yale University | Teaching Assistant, CS50 |
 | 🧠 | Oct 2022 | Cambridge, MA | MIT | HackMIT 2022 Finalist |
 | 👩‍🏫 | Sep 2021 – May 2022 | New Haven, CT | Code Haven at Yale | Mentor, Scratch programming |
 | 🎓 | Aug 2020 – May 2025 | New Haven, CT | Yale University | Bachelor of Science, Computer Science and Economics |
