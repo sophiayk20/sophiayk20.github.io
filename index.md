@@ -32,6 +32,8 @@ layout: page
         <p>
         My email is sophiayk20 [at] gmail [dot] com.
         My profiles are available at: <a href="https://scholar.google.com/citations?user=HSrWfxoAAAAJ&hl=en">Google Scholar</a>, <a href="https://openreview.net/profile?id=~Yeeun_Kang1">OpenReview</a>, and <a href="https://aclanthology.org/people/y/yeeun-kang/">ACL Anthology</a>.
+        <br/>
+        Visit my <a href="https://sophiayk20.github.io/history/">history page</a> for an organized list of experiences.
         </p>
     </div>
 </div>
