@@ -40,7 +40,7 @@ permalink: /history/
 
 | | Date | Location | Organization | Event |
 |-|------|----------|--------------|-------|
-| 🌐 | Jun 2026 | New York, NY | InstaLILY AI | InstaLILY x Women in AI 2026 NYC Tech Week Invitee |
+| 🌐 | Jun 2026 | New York, NY | InstaLILY AI | NYC Tech Week 2026 Women in AI Invitee |
 | 🧠 | Dec 2025 | New York, NY | ElevenLabs | Track Winner, ElevenLabs 2025 Worldwide Conversational AI Agents Hackathon |
 | 💻 | Aug 2025 – Present | New York, NY | Amazon | Software Engineer, Live Events @ Amazon Ads |
 | 🔬 | May 2025 | Rotterdam, Netherlands | Interspeech 2025 | Paper accepted, Interspeech 2025 |
