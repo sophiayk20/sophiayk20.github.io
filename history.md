@@ -54,6 +54,7 @@ permalink: /history/
   border-radius: 0 8px 8px 0;
 }
 .history-table td:nth-child(2) { font-weight: 600; color: #333; }
+.history-table .duration { margin-top: 2px; font-weight: 400; color: #aaa; font-size: 0.78em; }
 .history-table td:nth-child(3) { color: #888; font-size: 0.92em; }
 .history-table td:nth-child(4) { color: #00356B; font-weight: 500; }
 
@@ -132,6 +133,28 @@ permalink: /history/
 document.querySelectorAll('.history-table tbody tr').forEach(row => {
   const cell = row.querySelector('td');
   if (cell) cell.innerHTML = '<span class="dot">' + cell.textContent.trim() + '</span>';
+});
+
+const MONTHS = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
+document.querySelectorAll('.history-table tbody tr').forEach(row => {
+  const icon = row.querySelector('.dot')?.textContent.trim();
+  if (icon !== '💻') return;
+  const dateCell = row.querySelectorAll('td')[1];
+  if (!dateCell) return;
+  const match = dateCell.textContent.trim().match(/^([A-Za-z]+)\s+(\d{4})\s*[-–—]\s*([A-Za-z]+)\s+(\d{4})$/);
+  if (!match) return;
+  const [, startMon, startYear, endMon, endYear] = match;
+  if (!(startMon in MONTHS) || !(endMon in MONTHS)) return;
+  const total = (parseInt(endYear, 10) * 12 + MONTHS[endMon]) - (parseInt(startYear, 10) * 12 + MONTHS[startMon]) + 1;
+  if (total <= 0) return;
+  const years = Math.floor(total / 12), months = total % 12;
+  const parts = [];
+  if (years) parts.push(years + (years > 1 ? ' yrs' : ' yr'));
+  if (months) parts.push(months + ' mo');
+  const durationEl = document.createElement('div');
+  durationEl.className = 'duration';
+  durationEl.textContent = parts.join(' ');
+  dateCell.appendChild(durationEl);
 });
 
 function filterHistory(category) {
