@@ -16,11 +16,11 @@ permalink: /history/
   color: #444;
   transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
-.filter-btn:hover { border-color: #00356B; color: #00356B; }
+.filter-btn:hover { border-color: #555; color: #555; }
 .filter-btn.active {
-  background: #00356B;
+  background: #555;
   color: #fff;
-  border-color: #00356B;
+  border-color: #555;
 }
 
 .history-table { overflow-x: auto; }
@@ -38,7 +38,7 @@ permalink: /history/
   color: #999;
   border: none;
 }
-.history-table tbody tr:hover td { background: #f4f7fb; }
+.history-table tbody tr:hover td { background: #f2f2f2; }
 .history-table td {
   padding: 10px 20px 10px 4px;
   background: #fcfcfc;
@@ -89,7 +89,7 @@ permalink: /history/
   height: 26px;
   border-radius: 50%;
   background: #fff;
-  border: 2px solid #00356B;
+  border: 2px solid #555;
   font-size: 12px;
   line-height: 1;
 }
