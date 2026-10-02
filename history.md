@@ -5,25 +5,93 @@ permalink: /history/
 ---
 
 <style>
-.filter-btns { margin-bottom: 1em; }
+.filter-btns { margin-bottom: 1.2em; display: flex; flex-wrap: wrap; gap: 6px; }
 .filter-btn {
   cursor: pointer;
-  padding: 4px 10px;
-  margin: 3px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background: none;
-  font-size: 0.85em;
+  padding: 5px 12px;
+  border: 1px solid #dde3ea;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.82em;
+  color: #444;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
 }
+.filter-btn:hover { border-color: #00356B; color: #00356B; }
 .filter-btn.active {
-  background: #555;
-  color: white;
-  border-color: #555;
+  background: #00356B;
+  color: #fff;
+  border-color: #00356B;
 }
+
 .history-table { overflow-x: auto; }
-.history-table table { white-space: nowrap; width: 100%; border-collapse: separate; border-spacing: 0; }
-.history-table td, .history-table th { padding: 6px 20px 6px 4px; }
-.history-table td:last-child { white-space: normal; min-width: 200px; }
+.history-table table {
+  white-space: nowrap;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+.history-table thead th {
+  padding: 4px 20px 8px 4px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #999;
+  border: none;
+}
+.history-table tbody tr:hover td { background: #f4f7fb; }
+.history-table td {
+  padding: 10px 20px 10px 4px;
+  background: #fcfcfc;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  transition: background 0.15s ease;
+}
+.history-table td:last-child {
+  white-space: normal;
+  min-width: 200px;
+  border-right: 1px solid #ececec;
+  border-radius: 0 8px 8px 0;
+}
+.history-table td:nth-child(2) { font-weight: 600; color: #333; }
+.history-table td:nth-child(3) { color: #888; font-size: 0.92em; }
+.history-table td:nth-child(4) { color: #00356B; font-weight: 500; }
+
+/* timeline spine running through the icon column */
+.history-table td:first-child {
+  position: relative;
+  width: 36px;
+  text-align: center;
+  border-left: 1px solid #ececec;
+  border-radius: 8px 0 0 8px;
+}
+.history-table td:first-child::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  left: 50%;
+  width: 2px;
+  background: #dde3ea;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.history-table tbody tr:first-child td:first-child::before { top: 50%; }
+.history-table tbody tr:last-child td:first-child::before { bottom: 50%; }
+.history-table .dot {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #00356B;
+  font-size: 12px;
+  line-height: 1;
+}
 </style>
 
 <div class="filter-btns">
@@ -34,7 +102,7 @@ permalink: /history/
   <button class="filter-btn" onclick="filterHistory('🎓')">🎓 Education</button>
   <button class="filter-btn" onclick="filterHistory('👩‍🏫')">👩‍🏫 Teaching</button>
   <button class="filter-btn" onclick="filterHistory('🌐')">🌐 Event</button>
-  <button class="filter-btn" onclick="filterHIstory('🗣️')">🗣️ Language</button>
+  <button class="filter-btn" onclick="filterHistory('🗣️')">🗣️ Language</button>
 </div>
 
 <div class="history-table" markdown="1">
@@ -61,6 +129,11 @@ permalink: /history/
 </div>
 
 <script>
+document.querySelectorAll('.history-table tbody tr').forEach(row => {
+  const cell = row.querySelector('td');
+  if (cell) cell.innerHTML = '<span class="dot">' + cell.textContent.trim() + '</span>';
+});
+
 function filterHistory(category) {
   const rows = document.querySelectorAll('.history-table table tbody tr');
   rows.forEach(row => {
