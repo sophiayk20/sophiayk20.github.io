@@ -34,6 +34,7 @@ permalink: /history/
   <button class="filter-btn" onclick="filterHistory('🎓')">🎓 Education</button>
   <button class="filter-btn" onclick="filterHistory('👩‍🏫')">👩‍🏫 Teaching</button>
   <button class="filter-btn" onclick="filterHistory('🌐')">🌐 Event</button>
+  <button class="filter-btn" onclick="filterHIstory('🗣️')">🗣️ Language</button>
 </div>
 
 <div class="history-table" markdown="1">
@@ -42,7 +43,7 @@ permalink: /history/
 |-|------|----------|--------------|-------|
 | 🌐 | Jun 2026 | New York, NY | InstaLILY AI | NYC Tech Week 2026 Women in AI Invitee |
 | 🧠 | Dec 2025 | New York, NY | ElevenLabs | Track Winner, ElevenLabs 2025 Worldwide Conversational AI Agents Hackathon |
-| 💻 | Aug 2025 – Present | New York, NY | Amazon | Software Engineer, Live Events @ Amazon Ads |
+| 💻 | Aug 2025 – Oct 2026 | New York, NY | Amazon | Software Engineer, Live Events @ Amazon Ads |
 | 🔬 | May 2025 | Rotterdam, Netherlands | Interspeech 2025 | Paper accepted, Interspeech 2025 |
 | 🔬 | May 2025 | Vienna, Austria | ACL 2025 | Paper accepted, ACL 2025 Findings: *Statement-Tuning Enables Efficient Cross-lingual Generalization* |
 | 🔬 | Sep 2024 | Kos, Greece | Interspeech 2024 | Scholarship & presentation, Interspeech 2024 Young Female Researchers in Speech Workshop: *Generating Code-Switching Speech Based on Intonation Units for Non-English Language Pairs* |
