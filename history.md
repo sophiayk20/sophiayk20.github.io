@@ -57,6 +57,7 @@ permalink: /history/
 .history-table .duration { margin-top: 2px; font-weight: 400; color: #aaa; font-size: 0.78em; }
 .history-table td:nth-child(3) { color: #888; font-size: 0.92em; }
 .history-table td:nth-child(4) { color: #111; font-weight: 500; }
+.org-continued { color: #aaa; font-weight: 400; font-size: 0.88em; }
 
 /* timeline spine running through the icon column */
 .history-table td:first-child {
@@ -70,6 +71,17 @@ permalink: /history/
   content: "";
   position: absolute;
   top: -10px;
+  height: calc(50% + 10px);
+  left: 50%;
+  width: 2px;
+  background: #dde3ea;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.history-table td:first-child::after {
+  content: "";
+  position: absolute;
+  top: 50%;
   bottom: -10px;
   left: 50%;
   width: 2px;
@@ -77,8 +89,18 @@ permalink: /history/
   transform: translateX(-50%);
   z-index: 0;
 }
-.history-table tbody tr:first-child td:first-child::before { top: 50%; }
-.history-table tbody tr:last-child td:first-child::before { bottom: 50%; }
+.history-table tbody tr:first-child td:first-child::before { content: none; }
+.history-table tbody tr:last-child td:first-child::after { content: none; }
+
+/* darken the connector specifically between roles at the same org */
+.history-table tr.org-group:not(.org-group-first) td:first-child::before {
+  background: #555;
+  width: 3px;
+}
+.history-table tr.org-group:not(.org-group-last) td:first-child::after {
+  background: #555;
+  width: 3px;
+}
 .history-table .dot {
   position: relative;
   z-index: 1;
@@ -132,7 +154,8 @@ permalink: /history/
     border-left: none;
     border-radius: 0;
   }
-  .history-table td:first-child::before { content: none; }
+  .history-table td:first-child::before,
+  .history-table td:first-child::after { content: none; }
   .history-table td:nth-child(2) {
     order: 2;
     flex: 1 1 auto;
@@ -199,6 +222,32 @@ document.querySelectorAll('.history-table tbody tr').forEach(row => {
   const cell = row.querySelector('td');
   if (cell) cell.innerHTML = '<span class="dot">' + cell.textContent.trim() + '</span>';
 });
+
+// group consecutive rows that share the same Organization and category into one visual tenure
+const historyRows = Array.from(document.querySelectorAll('.history-table tbody tr'));
+historyRows.forEach(row => {
+  row.dataset.org = row.querySelectorAll('td')[3]?.textContent.trim();
+  row.dataset.icon = row.querySelector('.dot')?.textContent.trim();
+});
+let gi = 0;
+while (gi < historyRows.length) {
+  const org = historyRows[gi].dataset.org;
+  const icon = historyRows[gi].dataset.icon;
+  let gEnd = gi + 1;
+  while (gEnd < historyRows.length && historyRows[gEnd].dataset.org === org && historyRows[gEnd].dataset.icon === icon) gEnd++;
+  if (gEnd - gi > 1) {
+    for (let k = gi; k < gEnd; k++) {
+      historyRows[k].classList.add('org-group');
+      if (k === gi) historyRows[k].classList.add('org-group-first');
+      if (k === gEnd - 1) historyRows[k].classList.add('org-group-last');
+      if (k > gi) {
+        const orgCell = historyRows[k].querySelectorAll('td')[3];
+        if (orgCell) orgCell.innerHTML = '<span class="org-continued">↳ ' + org + '</span>';
+      }
+    }
+  }
+  gi = gEnd;
+}
 
 const MONTHS = {Jan:1,Feb:2,Mar:3,Apr:4,May:5,Jun:6,Jul:7,Aug:8,Sep:9,Oct:10,Nov:11,Dec:12};
 document.querySelectorAll('.history-table tbody tr').forEach(row => {
