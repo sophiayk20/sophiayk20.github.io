@@ -93,6 +93,71 @@ permalink: /history/
   font-size: 12px;
   line-height: 1;
 }
+
+/* stacked card layout on narrow viewports such as mobile devices */
+@media screen and (max-width: 600px) {
+  .history-table table,
+  .history-table thead,
+  .history-table tbody,
+  .history-table tr,
+  .history-table td {
+    display: block;
+    width: 100%;
+  }
+  .history-table thead { display: none; }
+  .history-table tbody tr {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 12px;
+    padding: 12px 14px;
+    background: #fcfcfc;
+    border: 1px solid #ececec;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+  }
+  .history-table tbody tr:hover { background: #f2f2f2; }
+  .history-table td {
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    white-space: normal;
+    min-width: 0;
+  }
+  .history-table td:first-child {
+    order: 1;
+    width: auto;
+    border-left: none;
+    border-radius: 0;
+  }
+  .history-table td:first-child::before { content: none; }
+  .history-table td:nth-child(2) {
+    order: 2;
+    flex: 1 1 auto;
+  }
+  .history-table td:nth-child(3) {
+    order: 4;
+    flex: 0 0 100%;
+    margin-top: 4px;
+  }
+  .history-table td:nth-child(3)::before { content: "📍 "; }
+  .history-table td:nth-child(4) {
+    order: 3;
+    flex: 0 0 100%;
+    margin-top: 8px;
+  }
+  .history-table td:last-child {
+    order: 5;
+    flex: 0 0 100%;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #ececec;
+    border-right: none;
+    border-radius: 0;
+  }
+}
 </style>
 
 <div class="filter-btns">
