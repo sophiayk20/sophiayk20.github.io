@@ -56,7 +56,7 @@ permalink: /history/
 .history-table td:nth-child(2) { font-weight: 600; color: #333; }
 .history-table .duration { margin-top: 2px; font-weight: 400; color: #aaa; font-size: 0.78em; }
 .history-table td:nth-child(3) { color: #888; font-size: 0.92em; }
-.history-table td:nth-child(4) { color: #00356B; font-weight: 500; }
+.history-table td:nth-child(4) { color: #111; font-weight: 500; }
 
 /* timeline spine running through the icon column */
 .history-table td:first-child {
