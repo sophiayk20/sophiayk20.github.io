@@ -15,11 +15,11 @@ layout: page
         <p>
          I'm a software engineer at Amazon and a graduate of
         Yale University (B.S. Computer Science & Economics, 2025).
-        My research interests are in speech processing and
+        My interests are in speech processing and
         natural language processing. During my undergraduate years, I
         presented work at Interspeech 2024 (Kos, Greece) and ACL
         2024 (Bangkok, Thailand), and interned on text-to-speech
-        teams at NAVER and Samsung Electronics in South Korea.
+        teams in South Korea.
         </p>
         <p>
          Outside of work, I enjoy studying foreign languages — I speak English, Korean, and Spanish and I'm
